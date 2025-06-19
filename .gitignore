@@ -1,0 +1,20 @@
+# Python temporary files
+*.pyc
+__pycache__/
+
+# Virtual environments (agar aap virtual environment use karte hain)
+.env/
+venv/
+env/
+
+# PyInstaller se bani hui files (jab aap .exe banate hain)
+build/
+dist/
+*.spec
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Personal data file (Agar aap apni expenses.csv file ko GitHub par nahi dalna chahte)
+expenses.csv
